@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Limit Order Book Engine.vcxproj" Id="0592ecd9-f5fc-4ad9-92d4-19a63816d4b3" />
+</Solution>

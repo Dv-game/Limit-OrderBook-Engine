@@ -1,0 +1,29 @@
+# Visual Studio user and cache files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sdf
+
+# Build output
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+Debug/
+Release/
+*.tlog/
+*.log
+*.pdb
+*.ilk
+*.idb
+*.ipch/
+*.obj
+*.exe
+*.dll
+*.lib
+
+# Generated Visual Studio project data
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
