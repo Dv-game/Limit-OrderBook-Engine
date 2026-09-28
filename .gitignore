@@ -1,29 +1,110 @@
-# Visual Studio user and cache files
+# ============================================================
+# C++ / CMake / CLion / Visual Studio .gitignore
+# ============================================================
+
+
+# ------------------------------------------------------------
+# JetBrains CLion
+# ------------------------------------------------------------
+
+.idea/
+
+# CLion / JetBrains local workspace files
+*.iml
+
+
+# ------------------------------------------------------------
+# CMake build directories
+# ------------------------------------------------------------
+
+# Common CMake build directories
+build/
+Build/
+[Bb]uild*/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# CMake generated compilation database
+compile_commands.json
+
+
+# ------------------------------------------------------------
+# Compiled binaries / object files
+# ------------------------------------------------------------
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+
+# Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Static libraries
+*.lib
+*.a
+
+# Debugging / symbol files
+*.pdb
+*.ilk
+*.idb
+
+
+# ------------------------------------------------------------
+# Visual Studio
+# ------------------------------------------------------------
+
+# Visual Studio user-specific files
 .vs/
 *.user
 *.suo
 *.userosscache
 *.sdf
+*.opensdf
 
-# Build output
-[Bb]in/
-[Oo]bj/
+# Visual Studio database files
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio build output
 x64/
 x86/
 Debug/
 Release/
+
+# Visual Studio intermediate files
 *.tlog/
-*.log
-*.pdb
-*.ilk
-*.idb
 *.ipch/
 *.obj
-*.exe
-*.dll
-*.lib
 
-# Generated Visual Studio project data
-*.VC.db
-*.VC.VC.opendb
-*.opensdf
+
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
+
+*.log
+
+
+# ------------------------------------------------------------
+# OS generated files
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~

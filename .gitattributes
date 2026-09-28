@@ -1,0 +1,11 @@
+# Normalize text files to LF in the repository
+* text=auto
+
+# C++ source files
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+
+# CMake files
+CMakeLists.txt text eol=lf
+*.cmake text eol=lf
