@@ -76,7 +76,7 @@ static void run_synthetic_burst_test() {
 
     for (int i = 0; i < num_orders; ++i) {
         // Generate simulated order flow tightly clustered around a price
-        int price = 3000000 + (i % 10);
+        int price = 1005000 + (i % 10);
         bool is_buy = (i % 2 == 0);
         int volume = 100;
 
